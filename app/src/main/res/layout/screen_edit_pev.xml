@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBackground"
+    android:orientation="vertical"
+    tools:context=".ui.createaccount.ScreenCadUser">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="288dp"
+                android:layout_height="87dp"
+                android:fontFamily="@font/rasa_bold"
+                android:text="Atualize seus dados"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="38sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rasa_bold"
+                    android:paddingLeft="10dp"
+                    android:text="Nome do posto de coleta:"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="10dp">
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/imageview_border_cad"
+                        app:srcCompat="@drawable/ic_baseline_store_24" />
+
+                    <EditText
+                        android:id="@+id/upPevNome"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/edittext_border_cad"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rasa_bold"
+                    android:paddingLeft="10dp"
+                    android:text="Contato:"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="10dp">
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/imageview_border_cad"
+                        app:srcCompat="@drawable/ic_round_local_phone_24" />
+
+                    <EditText
+                        android:id="@+id/upPevContato"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/edittext_border_cad"
+                        android:inputType="phone"
+                        android:maxLines="1" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Materiais no ponto:"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <CheckBox
+                    android:id="@+id/upCheckROrganicos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Residuos orgânicos"
+                    android:textColor="@color/primaryText"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/upCheckPapelPapelao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Papel e Papelão"
+                    android:textColor="@color/primaryText"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/upCheckOleoCosinha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Óleo de cosinha"
+                    android:textColor="@color/primaryText"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/upCheckPilhaBateria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Pilha ou Bateria"
+                    android:textColor="@color/primaryText"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/upCheckLampada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Lampada"
+                    android:textColor="@color/primaryText"
+                    android:textSize="22sp" />
+
+                <CheckBox
+                    android:id="@+id/upCheckREletronico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="40dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Residuos eletrônicos"
+                    android:textColor="@color/primaryText"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/upLocalizacao"
+                    android:layout_width="77dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/button_decide_border"
+                    app:srcCompat="@drawable/ic_baseline_my_location_24" />
+
+                <TextView
+                    android:id="@+id/textSelecionaLocalizacao"
+                    android:layout_width="270dp"
+                    android:layout_height="31dp"
+                    android:fontFamily="@font/rasa_bold"
+                    android:text="Alterar localização"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryText"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/updateCadPev"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_margin="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/button_decide_border"
+                android:fontFamily="@font/rasa_bold"
+                android:text="Atualizar"
+                android:textColor="@color/primaryBackground"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

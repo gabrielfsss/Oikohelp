@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBackground"
+    android:orientation="vertical"
+    tools:context=".ui.createaccount.ScreenCadPEV">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="230dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="13dp"
+                android:fontFamily="@font/rasa_bold"
+                android:text="Cadastro"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="46sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/rasa_bold"
+                        android:paddingLeft="10dp"
+                        android:text="Nome Completo:"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="38dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/imageview_border_cad"
+                            app:srcCompat="@drawable/ic_baseline_person_pin_24" />
+
+                        <EditText
+                            android:id="@+id/edUsuario"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edittext_border_cad"
+                            android:inputType="text"
+                            android:maxLines="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/rasa_bold"
+                        android:paddingLeft="10dp"
+                        android:text="Contato:"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="38dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/imageview_border_cad"
+                            app:srcCompat="@drawable/ic_round_local_phone_24" />
+
+                        <EditText
+                            android:id="@+id/edContato"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edittext_border_cad"
+                            android:inputType="phone"
+                            android:maxLines="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/rasa_bold"
+                        android:paddingLeft="10dp"
+                        android:text="Email"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="10dp">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/imageview_border_cad"
+                            app:srcCompat="@drawable/ic_baseline_markunread_24" />
+
+                        <EditText
+                            android:id="@+id/edEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edittext_border_cad"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/rasa_bold"
+                        android:paddingLeft="10dp"
+                        android:text="Senha"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="10dp">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/imageview_border_cad"
+                            app:srcCompat="@drawable/ic_baseline_lock_open_24" />
+
+                        <EditText
+                            android:id="@+id/edSenha"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edittext_border_cad"
+                            android:inputType="textPassword"
+                            android:maxLines="1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/confirmCad"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_decide_border"
+                android:fontFamily="@font/rasa_bold"
+                android:text="Cadastrar"
+                android:textColor="@color/primaryBackground"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

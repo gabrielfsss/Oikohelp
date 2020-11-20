@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rasa_bold"
+        android:text="Tipos de cadastro"
+        android:textColor="@color/primaryText"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rasa_bold"
+        android:paddingHorizontal="50dp"
+        android:text="Usuário: ao se cadastrar como um usuário, você tem acesso aos locais onde estão os pontos de coleta."
+        android:textColor="@color/primaryText"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/rasa_bold"
+        android:paddingHorizontal="50dp"
+        android:text="Pontos de coleta: conta que tem sua localização fixa e é o lugar onde temos o ponto de colata de materiais"
+        android:textColor="@color/primaryText"
+        android:textSize="18sp" />
+
+</LinearLayout>

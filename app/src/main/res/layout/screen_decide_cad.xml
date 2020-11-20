@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBackground"
+    android:orientation="vertical"
+    tools:context=".ui.createaccount.ScreenDecideCad">
+
+    <ImageButton
+        android:id="@+id/ajudaCad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_baseline_error_outline_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/rasa_bold"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="qual conta você deseja criar?"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnUsuario"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_decide_border"
+        android:fontFamily="@font/rasa_bold"
+        android:padding="4dp"
+        android:shadowColor="#0C0909"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Usuário"
+        android:textColor="#4CAF50"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rasa_bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ou"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnPev"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_decide_border"
+        android:fontFamily="@font/rasa_bold"
+        android:padding="4dp"
+        android:text="Ponto de coleta"
+        android:textColor="#4CAF50"
+        android:textSize="18sp" />
+</LinearLayout>

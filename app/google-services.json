@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "253501429795",
+    "firebase_url": "https://oikohelp.firebaseio.com",
+    "project_id": "oikohelp",
+    "storage_bucket": "oikohelp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253501429795:android:fce400c7c68238ff00f996",
+        "android_client_info": {
+          "package_name": "com.fmm.testebottom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253501429795-9vn9a9nf0p4hp22jdvustpvl6qb7tah1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fmm.testebottom",
+            "certificate_hash": "5a86f07b4b3565ebfe096c8bf1578754bdc161e9"
+          }
+        },
+        {
+          "client_id": "253501429795-qibg0ssgpip28bt3qg5c1ta4f9vg0bv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY9i9Up0jhJD478THXKRDebujwiJf74kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253501429795-qibg0ssgpip28bt3qg5c1ta4f9vg0bv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
